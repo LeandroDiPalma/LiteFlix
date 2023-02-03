@@ -1,0 +1,22 @@
+.circle-play-icon {   
+        display: block;
+        cursor: pointer;
+        width: 48px;
+        height: 48px;
+	&:hover{
+        transform: scale(1.3);
+	}
+    
+}
+@media (min-width: 768px) {
+    .circle-play-icon {   
+        display: block;
+        margin-right: 50px;
+        width: 48px;
+        height: 48px;
+        &:hover{
+            transform: scale(0.5);
+            
+        }
+    }
+}

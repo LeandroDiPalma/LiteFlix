@@ -1,0 +1,15 @@
+.logo-container{
+  h2 {
+    margin: 0;
+    color: #64eebc;
+    font-weight: lighter;
+    font-size: 34px;
+    width: fit-content;
+    letter-spacing: 4px;
+    grid-area: logo;
+    cursor: pointer;
+  }
+  strong {
+    font-weight: bold;
+  }
+}

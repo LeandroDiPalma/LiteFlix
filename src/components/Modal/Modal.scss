@@ -1,0 +1,31 @@
+.modal-container {
+    position: fixed;
+    background-color: #242424;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.title-modal {   
+    text-align: center;
+    color: #64eebc;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 72px auto;
+}
+
+@media (min-width: 768px) {
+    .modal-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .title-modal {   
+        margin: 48px auto;
+    }
+}

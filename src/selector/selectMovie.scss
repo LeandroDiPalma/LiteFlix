@@ -1,0 +1,35 @@
+.select-container {
+    background: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.select-label {   
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.select-movie {
+    width: 125px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #242424;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .select-container {
+        background: inherit;
+    }
+    .select-movie {
+        background: inherit;
+    }
+}

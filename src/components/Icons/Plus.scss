@@ -1,0 +1,9 @@
+.plus-icon {
+    display: none;
+}
+@media (min-width: 768px) {
+    .plus-icon {
+        display: inline-block;
+        margin-right: 0.8rem;   
+    }   
+}

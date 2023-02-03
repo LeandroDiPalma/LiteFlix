@@ -1,0 +1,11 @@
+.cLose-icon {   
+    display: none;
+}
+@media (min-width: 768px) {
+    .cLose-icon {   
+        display: block;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+}
